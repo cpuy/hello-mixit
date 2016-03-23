@@ -6,10 +6,7 @@
         .controller('HelloMixitCtrl', HelloMixitCtrl);
 
     function HelloMixitCtrl() {
-        var vm = this;
-
-        vm.greetings = "Hello World !";
-
+        this.greetings = "Hello World !";
     }
 
 })();
