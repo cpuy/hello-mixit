@@ -9,6 +9,9 @@ describe('hello mixit controller', function() {
     }));
 
     it('should say hello to the world', function() {
+
+        controller.sayHello();
+        
         expect(controller.greetings).toBe('Hello World !');
     });
 });

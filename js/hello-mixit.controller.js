@@ -6,7 +6,9 @@
         .controller('HelloMixitCtrl', HelloMixitCtrl);
 
     function HelloMixitCtrl() {
-        this.greetings = "Hello World !";
+        this.sayHello = function() {
+            this.greetings = 'Hello World !';
+        }
     }
 
 })();

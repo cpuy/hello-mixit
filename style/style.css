@@ -15,7 +15,6 @@ html, body, .content {
 
 .content {
     position: relative;
-
     background: #06234F url("rising-world.jpg") no-repeat center;
 }
 
@@ -34,6 +33,31 @@ html, body, .content {
     opacity: 0;
     animation-name: fadeIn;
     animation-duration:2s;
-    animation-delay: 0.7s;
     animation-fill-mode: forwards;
+}
+
+.content button {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    transition: all .3s ease-out;
+
+    padding: 15px 30px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+
+    background: #255699;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.content button:hover {
+    color: #255699;
+    background-color: white;
+    box-shadow: 0 3px rgba(0,0,0,0.2);
 }
