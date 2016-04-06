@@ -12,6 +12,6 @@ describe('hello mixit controller', function() {
 
         controller.sayHello();
         
-        expect(controller.greetings).toBe('Hello World !');
+        expect(controller.greetings).toBe('Hello Mix-it !');
     });
 });

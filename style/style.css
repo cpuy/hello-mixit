@@ -15,7 +15,7 @@ html, body, .content {
 
 .content {
     position: relative;
-    background: #06234F url("rising-world.jpg") no-repeat center;
+    background: #06234F url("mix-it.jpg") no-repeat right;
     background-size: cover;
 }
 
