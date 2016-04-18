@@ -1,4 +1,5 @@
 # Hello mix-it
+http://cpuy.github.io/hello-mixit/
 
 ## Run
     npm run serve
