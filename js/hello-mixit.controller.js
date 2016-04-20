@@ -7,7 +7,7 @@
 
     function HelloMixitCtrl() {
         this.sayHello = function() {
-            this.greetings = 'Hello World !';
+            this.greetings = "Hello Mix-it !";
         }
     }
 
